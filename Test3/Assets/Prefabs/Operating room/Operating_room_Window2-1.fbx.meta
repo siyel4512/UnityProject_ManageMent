@@ -1,0 +1,325 @@
+fileFormatVersion: 2
+guid: 879e9af351984784eb2d65b3af088e84
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Operating room Window2-1
+    100002: Operating room Window2-1.001
+    100004: Operating room Window2-1.002
+    100006: Operating room Window2-1.003
+    100008: Operating room Window2-1.004
+    100010: Operating room Window2-1.005
+    100012: Operating room Window2-1.006
+    100014: Operating room Window2-1.007
+    100016: Operating room Window2-1.008
+    100018: Operating room Window2-1.009
+    100020: Operating room Window2-1.010
+    100022: Operating room Window2-1.011
+    100024: Operating room Window2-1.012
+    100026: Operating room Window2-1.013
+    100028: Operating room Window2-1.014
+    100030: Operating room Window2-1.015
+    100032: Operating room Window2-1.016
+    100034: Operating room Window2-1.017
+    100036: Operating room Window2-1.018
+    100038: Operating room Window2-1.019
+    100040: Operating room Window2-1.020
+    100042: Operating room Window2-1.021
+    100044: Operating room Window2-1.022
+    100046: Operating room Window2-1.023
+    100048: Operating room Window2-1.024
+    100050: Operating room Window2-1.025
+    100052: Operating room Window2-1.026
+    100054: Operating room Window2-1.027
+    100056: Operating room Window2-1.028
+    100058: Operating room Window2-1.029
+    100060: Operating room Window2-1.030
+    100062: Operating room Window2-1.031
+    100064: Operating room Window2-1.032
+    100066: Operating room Window2-1.033
+    100068: Operating room Window2-1.034
+    100070: Operating room Window2-1.035
+    100072: Operating room Window2-1.036
+    100074: Operating room Window2-1.037
+    100076: Operating room Window2-1.038
+    100078: Operating room Window2-1.039
+    100080: Operating room Window2-1.040
+    100082: Operating room Window2-1.041
+    100084: Operating room Window2-1.042
+    100086: Operating room Window2-1.043
+    100088: Operating room Window2-1.044
+    100090: Operating room Window2-1.045
+    100092: Operating room Window2-1.046
+    100094: //RootNode
+    400000: Operating room Window2-1
+    400002: Operating room Window2-1.001
+    400004: Operating room Window2-1.002
+    400006: Operating room Window2-1.003
+    400008: Operating room Window2-1.004
+    400010: Operating room Window2-1.005
+    400012: Operating room Window2-1.006
+    400014: Operating room Window2-1.007
+    400016: Operating room Window2-1.008
+    400018: Operating room Window2-1.009
+    400020: Operating room Window2-1.010
+    400022: Operating room Window2-1.011
+    400024: Operating room Window2-1.012
+    400026: Operating room Window2-1.013
+    400028: Operating room Window2-1.014
+    400030: Operating room Window2-1.015
+    400032: Operating room Window2-1.016
+    400034: Operating room Window2-1.017
+    400036: Operating room Window2-1.018
+    400038: Operating room Window2-1.019
+    400040: Operating room Window2-1.020
+    400042: Operating room Window2-1.021
+    400044: Operating room Window2-1.022
+    400046: Operating room Window2-1.023
+    400048: Operating room Window2-1.024
+    400050: Operating room Window2-1.025
+    400052: Operating room Window2-1.026
+    400054: Operating room Window2-1.027
+    400056: Operating room Window2-1.028
+    400058: Operating room Window2-1.029
+    400060: Operating room Window2-1.030
+    400062: Operating room Window2-1.031
+    400064: Operating room Window2-1.032
+    400066: Operating room Window2-1.033
+    400068: Operating room Window2-1.034
+    400070: Operating room Window2-1.035
+    400072: Operating room Window2-1.036
+    400074: Operating room Window2-1.037
+    400076: Operating room Window2-1.038
+    400078: Operating room Window2-1.039
+    400080: Operating room Window2-1.040
+    400082: Operating room Window2-1.041
+    400084: Operating room Window2-1.042
+    400086: Operating room Window2-1.043
+    400088: Operating room Window2-1.044
+    400090: Operating room Window2-1.045
+    400092: Operating room Window2-1.046
+    400094: //RootNode
+    2100000: palette.002
+    2300000: Operating room Window2-1
+    2300002: Operating room Window2-1.001
+    2300004: Operating room Window2-1.002
+    2300006: Operating room Window2-1.003
+    2300008: Operating room Window2-1.004
+    2300010: Operating room Window2-1.005
+    2300012: Operating room Window2-1.006
+    2300014: Operating room Window2-1.007
+    2300016: Operating room Window2-1.008
+    2300018: Operating room Window2-1.009
+    2300020: Operating room Window2-1.010
+    2300022: Operating room Window2-1.011
+    2300024: Operating room Window2-1.012
+    2300026: Operating room Window2-1.013
+    2300028: Operating room Window2-1.014
+    2300030: Operating room Window2-1.015
+    2300032: Operating room Window2-1.016
+    2300034: Operating room Window2-1.017
+    2300036: Operating room Window2-1.018
+    2300038: Operating room Window2-1.019
+    2300040: Operating room Window2-1.020
+    2300042: Operating room Window2-1.021
+    2300044: Operating room Window2-1.022
+    2300046: Operating room Window2-1.023
+    2300048: Operating room Window2-1.024
+    2300050: Operating room Window2-1.025
+    2300052: Operating room Window2-1.026
+    2300054: Operating room Window2-1.027
+    2300056: Operating room Window2-1.028
+    2300058: Operating room Window2-1.029
+    2300060: Operating room Window2-1.030
+    2300062: Operating room Window2-1.031
+    2300064: Operating room Window2-1.032
+    2300066: Operating room Window2-1.033
+    2300068: Operating room Window2-1.034
+    2300070: Operating room Window2-1.035
+    2300072: Operating room Window2-1.036
+    2300074: Operating room Window2-1.037
+    2300076: Operating room Window2-1.038
+    2300078: Operating room Window2-1.039
+    2300080: Operating room Window2-1.040
+    2300082: Operating room Window2-1.041
+    2300084: Operating room Window2-1.042
+    2300086: Operating room Window2-1.043
+    2300088: Operating room Window2-1.044
+    2300090: Operating room Window2-1.045
+    2300092: Operating room Window2-1.046
+    3300000: Operating room Window2-1
+    3300002: Operating room Window2-1.001
+    3300004: Operating room Window2-1.002
+    3300006: Operating room Window2-1.003
+    3300008: Operating room Window2-1.004
+    3300010: Operating room Window2-1.005
+    3300012: Operating room Window2-1.006
+    3300014: Operating room Window2-1.007
+    3300016: Operating room Window2-1.008
+    3300018: Operating room Window2-1.009
+    3300020: Operating room Window2-1.010
+    3300022: Operating room Window2-1.011
+    3300024: Operating room Window2-1.012
+    3300026: Operating room Window2-1.013
+    3300028: Operating room Window2-1.014
+    3300030: Operating room Window2-1.015
+    3300032: Operating room Window2-1.016
+    3300034: Operating room Window2-1.017
+    3300036: Operating room Window2-1.018
+    3300038: Operating room Window2-1.019
+    3300040: Operating room Window2-1.020
+    3300042: Operating room Window2-1.021
+    3300044: Operating room Window2-1.022
+    3300046: Operating room Window2-1.023
+    3300048: Operating room Window2-1.024
+    3300050: Operating room Window2-1.025
+    3300052: Operating room Window2-1.026
+    3300054: Operating room Window2-1.027
+    3300056: Operating room Window2-1.028
+    3300058: Operating room Window2-1.029
+    3300060: Operating room Window2-1.030
+    3300062: Operating room Window2-1.031
+    3300064: Operating room Window2-1.032
+    3300066: Operating room Window2-1.033
+    3300068: Operating room Window2-1.034
+    3300070: Operating room Window2-1.035
+    3300072: Operating room Window2-1.036
+    3300074: Operating room Window2-1.037
+    3300076: Operating room Window2-1.038
+    3300078: Operating room Window2-1.039
+    3300080: Operating room Window2-1.040
+    3300082: Operating room Window2-1.041
+    3300084: Operating room Window2-1.042
+    3300086: Operating room Window2-1.043
+    3300088: Operating room Window2-1.044
+    3300090: Operating room Window2-1.045
+    3300092: Operating room Window2-1.046
+    4300000: Operating room Window2-1.046
+    4300002: Operating room Window2-1.045
+    4300004: Operating room Window2-1.044
+    4300006: Operating room Window2-1.043
+    4300008: Operating room Window2-1.042
+    4300010: Operating room Window2-1.041
+    4300012: Operating room Window2-1.040
+    4300014: Operating room Window2-1.039
+    4300016: Operating room Window2-1.038
+    4300018: Operating room Window2-1.037
+    4300020: Operating room Window2-1.036
+    4300022: Operating room Window2-1.035
+    4300024: Operating room Window2-1.034
+    4300026: Operating room Window2-1.033
+    4300028: Operating room Window2-1.032
+    4300030: Operating room Window2-1.031
+    4300032: Operating room Window2-1.030
+    4300034: Operating room Window2-1.029
+    4300036: Operating room Window2-1.028
+    4300038: Operating room Window2-1.027
+    4300040: Operating room Window2-1.026
+    4300042: Operating room Window2-1.025
+    4300044: Operating room Window2-1.024
+    4300046: Operating room Window2-1.023
+    4300048: Operating room Window2-1.022
+    4300050: Operating room Window2-1.021
+    4300052: Operating room Window2-1.020
+    4300054: Operating room Window2-1.019
+    4300056: Operating room Window2-1.018
+    4300058: Operating room Window2-1.017
+    4300060: Operating room Window2-1.016
+    4300062: Operating room Window2-1.015
+    4300064: Operating room Window2-1.014
+    4300066: Operating room Window2-1.013
+    4300068: Operating room Window2-1.012
+    4300070: Operating room Window2-1.011
+    4300072: Operating room Window2-1.010
+    4300074: Operating room Window2-1.009
+    4300076: Operating room Window2-1.008
+    4300078: Operating room Window2-1.007
+    4300080: Operating room Window2-1.006
+    4300082: Operating room Window2-1.005
+    4300084: Operating room Window2-1.004
+    4300086: Operating room Window2-1.003
+    4300088: Operating room Window2-1.002
+    4300090: Operating room Window2-1.001
+    4300092: Operating room Window2-1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

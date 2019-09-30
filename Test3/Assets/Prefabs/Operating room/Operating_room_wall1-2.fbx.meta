@@ -1,0 +1,810 @@
+fileFormatVersion: 2
+guid: de81c54c7511e534096e7de1325235ac
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Operating room wall1-2
+    100002: Operating room wall1-2.001
+    100004: Operating room wall1-2.002
+    100006: Operating room wall1-2.003
+    100008: Operating room wall1-2.004
+    100010: Operating room wall1-2.005
+    100012: Operating room wall1-2.006
+    100014: Operating room wall1-2.007
+    100016: Operating room wall1-2.008
+    100018: Operating room wall1-2.009
+    100020: Operating room wall1-2.010
+    100022: Operating room wall1-2.011
+    100024: Operating room wall1-2.012
+    100026: Operating room wall1-2.013
+    100028: Operating room wall1-2.014
+    100030: Operating room wall1-2.015
+    100032: Operating room wall1-2.016
+    100034: Operating room wall1-2.017
+    100036: Operating room wall1-2.018
+    100038: Operating room wall1-2.019
+    100040: Operating room wall1-2.020
+    100042: Operating room wall1-2.021
+    100044: Operating room wall1-2.022
+    100046: Operating room wall1-2.023
+    100048: Operating room wall1-2.024
+    100050: Operating room wall1-2.025
+    100052: Operating room wall1-2.026
+    100054: Operating room wall1-2.027
+    100056: Operating room wall1-2.028
+    100058: Operating room wall1-2.029
+    100060: Operating room wall1-2.030
+    100062: Operating room wall1-2.031
+    100064: Operating room wall1-2.032
+    100066: Operating room wall1-2.033
+    100068: Operating room wall1-2.034
+    100070: Operating room wall1-2.035
+    100072: Operating room wall1-2.036
+    100074: Operating room wall1-2.037
+    100076: Operating room wall1-2.038
+    100078: Operating room wall1-2.039
+    100080: Operating room wall1-2.040
+    100082: Operating room wall1-2.041
+    100084: Operating room wall1-2.042
+    100086: Operating room wall1-2.043
+    100088: Operating room wall1-2.044
+    100090: Operating room wall1-2.045
+    100092: Operating room wall1-2.046
+    100094: Operating room wall1-2.047
+    100096: Operating room wall1-2.048
+    100098: Operating room wall1-2.049
+    100100: Operating room wall1-2.050
+    100102: Operating room wall1-2.051
+    100104: Operating room wall1-2.052
+    100106: Operating room wall1-2.053
+    100108: Operating room wall1-2.054
+    100110: Operating room wall1-2.055
+    100112: Operating room wall1-2.056
+    100114: Operating room wall1-2.057
+    100116: Operating room wall1-2.058
+    100118: Operating room wall1-2.059
+    100120: Operating room wall1-2.060
+    100122: Operating room wall1-2.061
+    100124: Operating room wall1-2.062
+    100126: Operating room wall1-2.063
+    100128: Operating room wall1-2.064
+    100130: Operating room wall1-2.065
+    100132: Operating room wall1-2.066
+    100134: Operating room wall1-2.067
+    100136: Operating room wall1-2.068
+    100138: Operating room wall1-2.069
+    100140: Operating room wall1-2.070
+    100142: Operating room wall1-2.071
+    100144: Operating room wall1-2.072
+    100146: Operating room wall1-2.073
+    100148: Operating room wall1-2.074
+    100150: Operating room wall1-2.075
+    100152: Operating room wall1-2.076
+    100154: Operating room wall1-2.077
+    100156: Operating room wall1-2.078
+    100158: Operating room wall1-2.079
+    100160: Operating room wall1-2.080
+    100162: Operating room wall1-2.081
+    100164: Operating room wall1-2.082
+    100166: Operating room wall1-2.083
+    100168: Operating room wall1-2.084
+    100170: Operating room wall1-2.085
+    100172: Operating room wall1-2.086
+    100174: Operating room wall1-2.087
+    100176: Operating room wall1-2.088
+    100178: Operating room wall1-2.089
+    100180: Operating room wall1-2.090
+    100182: Operating room wall1-2.091
+    100184: Operating room wall1-2.092
+    100186: Operating room wall1-2.093
+    100188: Operating room wall1-2.094
+    100190: Operating room wall1-2.095
+    100192: Operating room wall1-2.096
+    100194: Operating room wall1-2.097
+    100196: Operating room wall1-2.098
+    100198: Operating room wall1-2.099
+    100200: Operating room wall1-2.100
+    100202: Operating room wall1-2.101
+    100204: Operating room wall1-2.102
+    100206: Operating room wall1-2.103
+    100208: Operating room wall1-2.104
+    100210: Operating room wall1-2.105
+    100212: Operating room wall1-2.106
+    100214: Operating room wall1-2.107
+    100216: Operating room wall1-2.108
+    100218: Operating room wall1-2.109
+    100220: Operating room wall1-2.110
+    100222: Operating room wall1-2.111
+    100224: Operating room wall1-2.112
+    100226: Operating room wall1-2.113
+    100228: Operating room wall1-2.114
+    100230: Operating room wall1-2.115
+    100232: Operating room wall1-2.116
+    100234: Operating room wall1-2.117
+    100236: Operating room wall1-2.118
+    100238: Operating room wall1-2.119
+    100240: Operating room wall1-2.120
+    100242: Operating room wall1-2.121
+    100244: Operating room wall1-2.122
+    100246: Operating room wall1-2.123
+    100248: Operating room wall1-2.124
+    100250: Operating room wall1-2.125
+    100252: Operating room wall1-2.126
+    100254: Operating room wall1-2.127
+    100256: Operating room wall1-2.128
+    100258: Operating room wall1-2.129
+    100260: Operating room wall1-2.130
+    100262: Operating room wall1-2.131
+    100264: Operating room wall1-2.132
+    100266: Operating room wall1-2.133
+    100268: Operating room wall1-2.134
+    100270: Operating room wall1-2.135
+    100272: Operating room wall1-2.136
+    100274: Operating room wall1-2.137
+    100276: Operating room wall1-2.138
+    100278: Operating room wall1-2.139
+    100280: Operating room wall1-2.140
+    100282: Operating room wall1-2.141
+    100284: Operating room wall1-2.142
+    100286: Operating room wall1-2.143
+    100288: //RootNode
+    400000: Operating room wall1-2
+    400002: Operating room wall1-2.001
+    400004: Operating room wall1-2.002
+    400006: Operating room wall1-2.003
+    400008: Operating room wall1-2.004
+    400010: Operating room wall1-2.005
+    400012: Operating room wall1-2.006
+    400014: Operating room wall1-2.007
+    400016: Operating room wall1-2.008
+    400018: Operating room wall1-2.009
+    400020: Operating room wall1-2.010
+    400022: Operating room wall1-2.011
+    400024: Operating room wall1-2.012
+    400026: Operating room wall1-2.013
+    400028: Operating room wall1-2.014
+    400030: Operating room wall1-2.015
+    400032: Operating room wall1-2.016
+    400034: Operating room wall1-2.017
+    400036: Operating room wall1-2.018
+    400038: Operating room wall1-2.019
+    400040: Operating room wall1-2.020
+    400042: Operating room wall1-2.021
+    400044: Operating room wall1-2.022
+    400046: Operating room wall1-2.023
+    400048: Operating room wall1-2.024
+    400050: Operating room wall1-2.025
+    400052: Operating room wall1-2.026
+    400054: Operating room wall1-2.027
+    400056: Operating room wall1-2.028
+    400058: Operating room wall1-2.029
+    400060: Operating room wall1-2.030
+    400062: Operating room wall1-2.031
+    400064: Operating room wall1-2.032
+    400066: Operating room wall1-2.033
+    400068: Operating room wall1-2.034
+    400070: Operating room wall1-2.035
+    400072: Operating room wall1-2.036
+    400074: Operating room wall1-2.037
+    400076: Operating room wall1-2.038
+    400078: Operating room wall1-2.039
+    400080: Operating room wall1-2.040
+    400082: Operating room wall1-2.041
+    400084: Operating room wall1-2.042
+    400086: Operating room wall1-2.043
+    400088: Operating room wall1-2.044
+    400090: Operating room wall1-2.045
+    400092: Operating room wall1-2.046
+    400094: Operating room wall1-2.047
+    400096: Operating room wall1-2.048
+    400098: Operating room wall1-2.049
+    400100: Operating room wall1-2.050
+    400102: Operating room wall1-2.051
+    400104: Operating room wall1-2.052
+    400106: Operating room wall1-2.053
+    400108: Operating room wall1-2.054
+    400110: Operating room wall1-2.055
+    400112: Operating room wall1-2.056
+    400114: Operating room wall1-2.057
+    400116: Operating room wall1-2.058
+    400118: Operating room wall1-2.059
+    400120: Operating room wall1-2.060
+    400122: Operating room wall1-2.061
+    400124: Operating room wall1-2.062
+    400126: Operating room wall1-2.063
+    400128: Operating room wall1-2.064
+    400130: Operating room wall1-2.065
+    400132: Operating room wall1-2.066
+    400134: Operating room wall1-2.067
+    400136: Operating room wall1-2.068
+    400138: Operating room wall1-2.069
+    400140: Operating room wall1-2.070
+    400142: Operating room wall1-2.071
+    400144: Operating room wall1-2.072
+    400146: Operating room wall1-2.073
+    400148: Operating room wall1-2.074
+    400150: Operating room wall1-2.075
+    400152: Operating room wall1-2.076
+    400154: Operating room wall1-2.077
+    400156: Operating room wall1-2.078
+    400158: Operating room wall1-2.079
+    400160: Operating room wall1-2.080
+    400162: Operating room wall1-2.081
+    400164: Operating room wall1-2.082
+    400166: Operating room wall1-2.083
+    400168: Operating room wall1-2.084
+    400170: Operating room wall1-2.085
+    400172: Operating room wall1-2.086
+    400174: Operating room wall1-2.087
+    400176: Operating room wall1-2.088
+    400178: Operating room wall1-2.089
+    400180: Operating room wall1-2.090
+    400182: Operating room wall1-2.091
+    400184: Operating room wall1-2.092
+    400186: Operating room wall1-2.093
+    400188: Operating room wall1-2.094
+    400190: Operating room wall1-2.095
+    400192: Operating room wall1-2.096
+    400194: Operating room wall1-2.097
+    400196: Operating room wall1-2.098
+    400198: Operating room wall1-2.099
+    400200: Operating room wall1-2.100
+    400202: Operating room wall1-2.101
+    400204: Operating room wall1-2.102
+    400206: Operating room wall1-2.103
+    400208: Operating room wall1-2.104
+    400210: Operating room wall1-2.105
+    400212: Operating room wall1-2.106
+    400214: Operating room wall1-2.107
+    400216: Operating room wall1-2.108
+    400218: Operating room wall1-2.109
+    400220: Operating room wall1-2.110
+    400222: Operating room wall1-2.111
+    400224: Operating room wall1-2.112
+    400226: Operating room wall1-2.113
+    400228: Operating room wall1-2.114
+    400230: Operating room wall1-2.115
+    400232: Operating room wall1-2.116
+    400234: Operating room wall1-2.117
+    400236: Operating room wall1-2.118
+    400238: Operating room wall1-2.119
+    400240: Operating room wall1-2.120
+    400242: Operating room wall1-2.121
+    400244: Operating room wall1-2.122
+    400246: Operating room wall1-2.123
+    400248: Operating room wall1-2.124
+    400250: Operating room wall1-2.125
+    400252: Operating room wall1-2.126
+    400254: Operating room wall1-2.127
+    400256: Operating room wall1-2.128
+    400258: Operating room wall1-2.129
+    400260: Operating room wall1-2.130
+    400262: Operating room wall1-2.131
+    400264: Operating room wall1-2.132
+    400266: Operating room wall1-2.133
+    400268: Operating room wall1-2.134
+    400270: Operating room wall1-2.135
+    400272: Operating room wall1-2.136
+    400274: Operating room wall1-2.137
+    400276: Operating room wall1-2.138
+    400278: Operating room wall1-2.139
+    400280: Operating room wall1-2.140
+    400282: Operating room wall1-2.141
+    400284: Operating room wall1-2.142
+    400286: Operating room wall1-2.143
+    400288: //RootNode
+    2100000: palette.021
+    2300000: Operating room wall1-2
+    2300002: Operating room wall1-2.001
+    2300004: Operating room wall1-2.002
+    2300006: Operating room wall1-2.003
+    2300008: Operating room wall1-2.004
+    2300010: Operating room wall1-2.005
+    2300012: Operating room wall1-2.006
+    2300014: Operating room wall1-2.007
+    2300016: Operating room wall1-2.008
+    2300018: Operating room wall1-2.009
+    2300020: Operating room wall1-2.010
+    2300022: Operating room wall1-2.011
+    2300024: Operating room wall1-2.012
+    2300026: Operating room wall1-2.013
+    2300028: Operating room wall1-2.014
+    2300030: Operating room wall1-2.015
+    2300032: Operating room wall1-2.016
+    2300034: Operating room wall1-2.017
+    2300036: Operating room wall1-2.018
+    2300038: Operating room wall1-2.019
+    2300040: Operating room wall1-2.020
+    2300042: Operating room wall1-2.021
+    2300044: Operating room wall1-2.022
+    2300046: Operating room wall1-2.023
+    2300048: Operating room wall1-2.024
+    2300050: Operating room wall1-2.025
+    2300052: Operating room wall1-2.026
+    2300054: Operating room wall1-2.027
+    2300056: Operating room wall1-2.028
+    2300058: Operating room wall1-2.029
+    2300060: Operating room wall1-2.030
+    2300062: Operating room wall1-2.031
+    2300064: Operating room wall1-2.032
+    2300066: Operating room wall1-2.033
+    2300068: Operating room wall1-2.034
+    2300070: Operating room wall1-2.035
+    2300072: Operating room wall1-2.036
+    2300074: Operating room wall1-2.037
+    2300076: Operating room wall1-2.038
+    2300078: Operating room wall1-2.039
+    2300080: Operating room wall1-2.040
+    2300082: Operating room wall1-2.041
+    2300084: Operating room wall1-2.042
+    2300086: Operating room wall1-2.043
+    2300088: Operating room wall1-2.044
+    2300090: Operating room wall1-2.045
+    2300092: Operating room wall1-2.046
+    2300094: Operating room wall1-2.047
+    2300096: Operating room wall1-2.048
+    2300098: Operating room wall1-2.049
+    2300100: Operating room wall1-2.050
+    2300102: Operating room wall1-2.051
+    2300104: Operating room wall1-2.052
+    2300106: Operating room wall1-2.053
+    2300108: Operating room wall1-2.054
+    2300110: Operating room wall1-2.055
+    2300112: Operating room wall1-2.056
+    2300114: Operating room wall1-2.057
+    2300116: Operating room wall1-2.058
+    2300118: Operating room wall1-2.059
+    2300120: Operating room wall1-2.060
+    2300122: Operating room wall1-2.061
+    2300124: Operating room wall1-2.062
+    2300126: Operating room wall1-2.063
+    2300128: Operating room wall1-2.064
+    2300130: Operating room wall1-2.065
+    2300132: Operating room wall1-2.066
+    2300134: Operating room wall1-2.067
+    2300136: Operating room wall1-2.068
+    2300138: Operating room wall1-2.069
+    2300140: Operating room wall1-2.070
+    2300142: Operating room wall1-2.071
+    2300144: Operating room wall1-2.072
+    2300146: Operating room wall1-2.073
+    2300148: Operating room wall1-2.074
+    2300150: Operating room wall1-2.075
+    2300152: Operating room wall1-2.076
+    2300154: Operating room wall1-2.077
+    2300156: Operating room wall1-2.078
+    2300158: Operating room wall1-2.079
+    2300160: Operating room wall1-2.080
+    2300162: Operating room wall1-2.081
+    2300164: Operating room wall1-2.082
+    2300166: Operating room wall1-2.083
+    2300168: Operating room wall1-2.084
+    2300170: Operating room wall1-2.085
+    2300172: Operating room wall1-2.086
+    2300174: Operating room wall1-2.087
+    2300176: Operating room wall1-2.088
+    2300178: Operating room wall1-2.089
+    2300180: Operating room wall1-2.090
+    2300182: Operating room wall1-2.091
+    2300184: Operating room wall1-2.092
+    2300186: Operating room wall1-2.093
+    2300188: Operating room wall1-2.094
+    2300190: Operating room wall1-2.095
+    2300192: Operating room wall1-2.096
+    2300194: Operating room wall1-2.097
+    2300196: Operating room wall1-2.098
+    2300198: Operating room wall1-2.099
+    2300200: Operating room wall1-2.100
+    2300202: Operating room wall1-2.101
+    2300204: Operating room wall1-2.102
+    2300206: Operating room wall1-2.103
+    2300208: Operating room wall1-2.104
+    2300210: Operating room wall1-2.105
+    2300212: Operating room wall1-2.106
+    2300214: Operating room wall1-2.107
+    2300216: Operating room wall1-2.108
+    2300218: Operating room wall1-2.109
+    2300220: Operating room wall1-2.110
+    2300222: Operating room wall1-2.111
+    2300224: Operating room wall1-2.112
+    2300226: Operating room wall1-2.113
+    2300228: Operating room wall1-2.114
+    2300230: Operating room wall1-2.115
+    2300232: Operating room wall1-2.116
+    2300234: Operating room wall1-2.117
+    2300236: Operating room wall1-2.118
+    2300238: Operating room wall1-2.119
+    2300240: Operating room wall1-2.120
+    2300242: Operating room wall1-2.121
+    2300244: Operating room wall1-2.122
+    2300246: Operating room wall1-2.123
+    2300248: Operating room wall1-2.124
+    2300250: Operating room wall1-2.125
+    2300252: Operating room wall1-2.126
+    2300254: Operating room wall1-2.127
+    2300256: Operating room wall1-2.128
+    2300258: Operating room wall1-2.129
+    2300260: Operating room wall1-2.130
+    2300262: Operating room wall1-2.131
+    2300264: Operating room wall1-2.132
+    2300266: Operating room wall1-2.133
+    2300268: Operating room wall1-2.134
+    2300270: Operating room wall1-2.135
+    2300272: Operating room wall1-2.136
+    2300274: Operating room wall1-2.137
+    2300276: Operating room wall1-2.138
+    2300278: Operating room wall1-2.139
+    2300280: Operating room wall1-2.140
+    2300282: Operating room wall1-2.141
+    2300284: Operating room wall1-2.142
+    2300286: Operating room wall1-2.143
+    3300000: Operating room wall1-2
+    3300002: Operating room wall1-2.001
+    3300004: Operating room wall1-2.002
+    3300006: Operating room wall1-2.003
+    3300008: Operating room wall1-2.004
+    3300010: Operating room wall1-2.005
+    3300012: Operating room wall1-2.006
+    3300014: Operating room wall1-2.007
+    3300016: Operating room wall1-2.008
+    3300018: Operating room wall1-2.009
+    3300020: Operating room wall1-2.010
+    3300022: Operating room wall1-2.011
+    3300024: Operating room wall1-2.012
+    3300026: Operating room wall1-2.013
+    3300028: Operating room wall1-2.014
+    3300030: Operating room wall1-2.015
+    3300032: Operating room wall1-2.016
+    3300034: Operating room wall1-2.017
+    3300036: Operating room wall1-2.018
+    3300038: Operating room wall1-2.019
+    3300040: Operating room wall1-2.020
+    3300042: Operating room wall1-2.021
+    3300044: Operating room wall1-2.022
+    3300046: Operating room wall1-2.023
+    3300048: Operating room wall1-2.024
+    3300050: Operating room wall1-2.025
+    3300052: Operating room wall1-2.026
+    3300054: Operating room wall1-2.027
+    3300056: Operating room wall1-2.028
+    3300058: Operating room wall1-2.029
+    3300060: Operating room wall1-2.030
+    3300062: Operating room wall1-2.031
+    3300064: Operating room wall1-2.032
+    3300066: Operating room wall1-2.033
+    3300068: Operating room wall1-2.034
+    3300070: Operating room wall1-2.035
+    3300072: Operating room wall1-2.036
+    3300074: Operating room wall1-2.037
+    3300076: Operating room wall1-2.038
+    3300078: Operating room wall1-2.039
+    3300080: Operating room wall1-2.040
+    3300082: Operating room wall1-2.041
+    3300084: Operating room wall1-2.042
+    3300086: Operating room wall1-2.043
+    3300088: Operating room wall1-2.044
+    3300090: Operating room wall1-2.045
+    3300092: Operating room wall1-2.046
+    3300094: Operating room wall1-2.047
+    3300096: Operating room wall1-2.048
+    3300098: Operating room wall1-2.049
+    3300100: Operating room wall1-2.050
+    3300102: Operating room wall1-2.051
+    3300104: Operating room wall1-2.052
+    3300106: Operating room wall1-2.053
+    3300108: Operating room wall1-2.054
+    3300110: Operating room wall1-2.055
+    3300112: Operating room wall1-2.056
+    3300114: Operating room wall1-2.057
+    3300116: Operating room wall1-2.058
+    3300118: Operating room wall1-2.059
+    3300120: Operating room wall1-2.060
+    3300122: Operating room wall1-2.061
+    3300124: Operating room wall1-2.062
+    3300126: Operating room wall1-2.063
+    3300128: Operating room wall1-2.064
+    3300130: Operating room wall1-2.065
+    3300132: Operating room wall1-2.066
+    3300134: Operating room wall1-2.067
+    3300136: Operating room wall1-2.068
+    3300138: Operating room wall1-2.069
+    3300140: Operating room wall1-2.070
+    3300142: Operating room wall1-2.071
+    3300144: Operating room wall1-2.072
+    3300146: Operating room wall1-2.073
+    3300148: Operating room wall1-2.074
+    3300150: Operating room wall1-2.075
+    3300152: Operating room wall1-2.076
+    3300154: Operating room wall1-2.077
+    3300156: Operating room wall1-2.078
+    3300158: Operating room wall1-2.079
+    3300160: Operating room wall1-2.080
+    3300162: Operating room wall1-2.081
+    3300164: Operating room wall1-2.082
+    3300166: Operating room wall1-2.083
+    3300168: Operating room wall1-2.084
+    3300170: Operating room wall1-2.085
+    3300172: Operating room wall1-2.086
+    3300174: Operating room wall1-2.087
+    3300176: Operating room wall1-2.088
+    3300178: Operating room wall1-2.089
+    3300180: Operating room wall1-2.090
+    3300182: Operating room wall1-2.091
+    3300184: Operating room wall1-2.092
+    3300186: Operating room wall1-2.093
+    3300188: Operating room wall1-2.094
+    3300190: Operating room wall1-2.095
+    3300192: Operating room wall1-2.096
+    3300194: Operating room wall1-2.097
+    3300196: Operating room wall1-2.098
+    3300198: Operating room wall1-2.099
+    3300200: Operating room wall1-2.100
+    3300202: Operating room wall1-2.101
+    3300204: Operating room wall1-2.102
+    3300206: Operating room wall1-2.103
+    3300208: Operating room wall1-2.104
+    3300210: Operating room wall1-2.105
+    3300212: Operating room wall1-2.106
+    3300214: Operating room wall1-2.107
+    3300216: Operating room wall1-2.108
+    3300218: Operating room wall1-2.109
+    3300220: Operating room wall1-2.110
+    3300222: Operating room wall1-2.111
+    3300224: Operating room wall1-2.112
+    3300226: Operating room wall1-2.113
+    3300228: Operating room wall1-2.114
+    3300230: Operating room wall1-2.115
+    3300232: Operating room wall1-2.116
+    3300234: Operating room wall1-2.117
+    3300236: Operating room wall1-2.118
+    3300238: Operating room wall1-2.119
+    3300240: Operating room wall1-2.120
+    3300242: Operating room wall1-2.121
+    3300244: Operating room wall1-2.122
+    3300246: Operating room wall1-2.123
+    3300248: Operating room wall1-2.124
+    3300250: Operating room wall1-2.125
+    3300252: Operating room wall1-2.126
+    3300254: Operating room wall1-2.127
+    3300256: Operating room wall1-2.128
+    3300258: Operating room wall1-2.129
+    3300260: Operating room wall1-2.130
+    3300262: Operating room wall1-2.131
+    3300264: Operating room wall1-2.132
+    3300266: Operating room wall1-2.133
+    3300268: Operating room wall1-2.134
+    3300270: Operating room wall1-2.135
+    3300272: Operating room wall1-2.136
+    3300274: Operating room wall1-2.137
+    3300276: Operating room wall1-2.138
+    3300278: Operating room wall1-2.139
+    3300280: Operating room wall1-2.140
+    3300282: Operating room wall1-2.141
+    3300284: Operating room wall1-2.142
+    3300286: Operating room wall1-2.143
+    4300000: Operating room wall1-2.143
+    4300002: Operating room wall1-2.142
+    4300004: Operating room wall1-2.141
+    4300006: Operating room wall1-2.140
+    4300008: Operating room wall1-2.139
+    4300010: Operating room wall1-2.138
+    4300012: Operating room wall1-2.137
+    4300014: Operating room wall1-2.136
+    4300016: Operating room wall1-2.135
+    4300018: Operating room wall1-2.134
+    4300020: Operating room wall1-2.133
+    4300022: Operating room wall1-2.132
+    4300024: Operating room wall1-2.131
+    4300026: Operating room wall1-2.130
+    4300028: Operating room wall1-2.129
+    4300030: Operating room wall1-2.128
+    4300032: Operating room wall1-2.127
+    4300034: Operating room wall1-2.126
+    4300036: Operating room wall1-2.125
+    4300038: Operating room wall1-2.124
+    4300040: Operating room wall1-2.123
+    4300042: Operating room wall1-2.122
+    4300044: Operating room wall1-2.121
+    4300046: Operating room wall1-2.120
+    4300048: Operating room wall1-2.119
+    4300050: Operating room wall1-2.118
+    4300052: Operating room wall1-2.117
+    4300054: Operating room wall1-2.116
+    4300056: Operating room wall1-2.115
+    4300058: Operating room wall1-2.114
+    4300060: Operating room wall1-2.113
+    4300062: Operating room wall1-2.112
+    4300064: Operating room wall1-2.111
+    4300066: Operating room wall1-2.110
+    4300068: Operating room wall1-2.109
+    4300070: Operating room wall1-2.108
+    4300072: Operating room wall1-2.107
+    4300074: Operating room wall1-2.106
+    4300076: Operating room wall1-2.105
+    4300078: Operating room wall1-2.104
+    4300080: Operating room wall1-2.103
+    4300082: Operating room wall1-2.102
+    4300084: Operating room wall1-2.101
+    4300086: Operating room wall1-2.100
+    4300088: Operating room wall1-2.099
+    4300090: Operating room wall1-2.098
+    4300092: Operating room wall1-2.097
+    4300094: Operating room wall1-2.096
+    4300096: Operating room wall1-2.095
+    4300098: Operating room wall1-2.094
+    4300100: Operating room wall1-2.093
+    4300102: Operating room wall1-2.092
+    4300104: Operating room wall1-2.091
+    4300106: Operating room wall1-2.090
+    4300108: Operating room wall1-2.089
+    4300110: Operating room wall1-2.088
+    4300112: Operating room wall1-2.087
+    4300114: Operating room wall1-2.086
+    4300116: Operating room wall1-2.085
+    4300118: Operating room wall1-2.084
+    4300120: Operating room wall1-2.083
+    4300122: Operating room wall1-2.082
+    4300124: Operating room wall1-2.081
+    4300126: Operating room wall1-2.080
+    4300128: Operating room wall1-2.079
+    4300130: Operating room wall1-2.078
+    4300132: Operating room wall1-2.077
+    4300134: Operating room wall1-2.076
+    4300136: Operating room wall1-2.075
+    4300138: Operating room wall1-2.074
+    4300140: Operating room wall1-2.073
+    4300142: Operating room wall1-2.072
+    4300144: Operating room wall1-2.071
+    4300146: Operating room wall1-2.070
+    4300148: Operating room wall1-2.069
+    4300150: Operating room wall1-2.068
+    4300152: Operating room wall1-2.067
+    4300154: Operating room wall1-2.066
+    4300156: Operating room wall1-2.065
+    4300158: Operating room wall1-2.064
+    4300160: Operating room wall1-2.063
+    4300162: Operating room wall1-2.062
+    4300164: Operating room wall1-2.061
+    4300166: Operating room wall1-2.060
+    4300168: Operating room wall1-2.059
+    4300170: Operating room wall1-2.058
+    4300172: Operating room wall1-2.057
+    4300174: Operating room wall1-2.056
+    4300176: Operating room wall1-2.055
+    4300178: Operating room wall1-2.054
+    4300180: Operating room wall1-2.053
+    4300182: Operating room wall1-2.052
+    4300184: Operating room wall1-2.051
+    4300186: Operating room wall1-2.050
+    4300188: Operating room wall1-2.049
+    4300190: Operating room wall1-2.048
+    4300192: Operating room wall1-2.047
+    4300194: Operating room wall1-2.046
+    4300196: Operating room wall1-2.045
+    4300198: Operating room wall1-2.044
+    4300200: Operating room wall1-2.043
+    4300202: Operating room wall1-2.042
+    4300204: Operating room wall1-2.041
+    4300206: Operating room wall1-2.040
+    4300208: Operating room wall1-2.039
+    4300210: Operating room wall1-2.038
+    4300212: Operating room wall1-2.037
+    4300214: Operating room wall1-2.036
+    4300216: Operating room wall1-2.035
+    4300218: Operating room wall1-2.034
+    4300220: Operating room wall1-2.033
+    4300222: Operating room wall1-2.032
+    4300224: Operating room wall1-2.031
+    4300226: Operating room wall1-2.030
+    4300228: Operating room wall1-2.029
+    4300230: Operating room wall1-2.028
+    4300232: Operating room wall1-2.027
+    4300234: Operating room wall1-2.026
+    4300236: Operating room wall1-2.025
+    4300238: Operating room wall1-2.024
+    4300240: Operating room wall1-2.023
+    4300242: Operating room wall1-2.022
+    4300244: Operating room wall1-2.021
+    4300246: Operating room wall1-2.020
+    4300248: Operating room wall1-2.019
+    4300250: Operating room wall1-2.018
+    4300252: Operating room wall1-2.017
+    4300254: Operating room wall1-2.016
+    4300256: Operating room wall1-2.015
+    4300258: Operating room wall1-2.014
+    4300260: Operating room wall1-2.013
+    4300262: Operating room wall1-2.012
+    4300264: Operating room wall1-2.011
+    4300266: Operating room wall1-2.010
+    4300268: Operating room wall1-2.009
+    4300270: Operating room wall1-2.008
+    4300272: Operating room wall1-2.007
+    4300274: Operating room wall1-2.006
+    4300276: Operating room wall1-2.005
+    4300278: Operating room wall1-2.004
+    4300280: Operating room wall1-2.003
+    4300282: Operating room wall1-2.002
+    4300284: Operating room wall1-2.001
+    4300286: Operating room wall1-2
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
