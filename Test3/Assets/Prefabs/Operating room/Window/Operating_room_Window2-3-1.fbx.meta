@@ -1,21 +1,21 @@
 fileFormatVersion: 2
-guid: 057389e8249c4a94781cb11f39b158e1
+guid: 03442bd1922abe94195c7f19014c06cf
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Operating room wall1-3.000
-    100002: Operating room wall1-3.001
+    100000: Operating room Window2-3-1
+    100002: Operating room Window2-3-1.001
     100004: //RootNode
-    400000: Operating room wall1-3.000
-    400002: Operating room wall1-3.001
+    400000: Operating room Window2-3-1
+    400002: Operating room Window2-3-1.001
     400004: //RootNode
-    2100000: palette.023
-    2300000: Operating room wall1-3.000
-    2300002: Operating room wall1-3.001
-    3300000: Operating room wall1-3.000
-    3300002: Operating room wall1-3.001
-    4300000: Operating room wall1-3.000
-    4300002: Operating room wall1-3.001
+    2100000: palette.009
+    2300000: Operating room Window2-3-1
+    2300002: Operating room Window2-3-1.001
+    3300000: Operating room Window2-3-1
+    3300002: Operating room Window2-3-1.001
+    4300000: Operating room Window2-3-1.001
+    4300002: Operating room Window2-3-1
   externalObjects: {}
   materials:
     importMaterials: 1
