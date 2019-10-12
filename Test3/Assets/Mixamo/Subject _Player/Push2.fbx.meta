@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 653b9993916790d4fa4a9cadd8ec9f55
+guid: e51e20132e886434c8afa50c0a19ce8d
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -32,11 +32,11 @@ ModelImporter:
     100052: metarig
     100054: Neck
     100056: Neck1
-    100058: //RootNode
-    100060: pelvis.L
-    100062: pelvis.L_end
-    100064: pelvis.R
-    100066: pelvis.R_end
+    100058: pelvis.L
+    100060: pelvis.L_end
+    100062: pelvis.R
+    100064: pelvis.R_end
+    100066: //RootNode
     100068: shin.L
     100070: shin.R
     100072: Shin_L
@@ -88,11 +88,11 @@ ModelImporter:
     400052: metarig
     400054: Neck
     400056: Neck1
-    400058: //RootNode
-    400060: pelvis.L
-    400062: pelvis.L_end
-    400064: pelvis.R
-    400066: pelvis.R_end
+    400058: pelvis.L
+    400060: pelvis.L_end
+    400062: pelvis.R
+    400064: pelvis.R_end
+    400066: //RootNode
     400068: shin.L
     400070: shin.R
     400072: Shin_L
@@ -173,7 +173,7 @@ ModelImporter:
     7400000: Head_Close_eyes|Action
     7400002: metarig|Action
     7400004: metarig|metarigAction
-    7400006: Normal Crouch Walk Forward
+    7400006: Push2
     9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
@@ -195,7 +195,8 @@ ModelImporter:
       might lower retargeting quality:\nNote: Activate translation DOF on avatar to
       improve retargeting quality.\n\t'spine.004' is inbetween humanoid transforms
       and has rotation animation that will be discarded.\n\t'shoulder.L' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n"
+      humanoid transforms and has rotation animation that will be discarded.\n\t'shoulder.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -293,10 +294,10 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Normal Crouch Walk Forward
+      name: Push2
       takeName: mixamo.com
       firstFrame: 0
-      lastFrame: 37
+      lastFrame: 51
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -308,7 +309,7 @@ ModelImporter:
       loopBlendOrientation: 1
       loopBlendPositionY: 1
       loopBlendPositionXZ: 0
-      keepOriginalOrientation: 1
+      keepOriginalOrientation: 0
       keepOriginalPositionY: 0
       keepOriginalPositionXZ: 0
       heightFromFeet: 1

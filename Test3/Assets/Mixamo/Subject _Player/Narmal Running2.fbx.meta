@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fdefe3ee7cbdf624fa8e2b8ae56c065a
+guid: 873bc82e154af8644a391f9a2e56ee76
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -30,9 +30,9 @@ ModelImporter:
     100048: heel.02.R_end
     100050: HIp
     100052: metarig
-    100054: Neck
-    100056: Neck1
-    100058: //RootNode
+    100054: //RootNode
+    100056: Neck
+    100058: Neck1
     100060: pelvis.L
     100062: pelvis.L_end
     100064: pelvis.R
@@ -86,9 +86,9 @@ ModelImporter:
     400048: heel.02.R_end
     400050: HIp
     400052: metarig
-    400054: Neck
-    400056: Neck1
-    400058: //RootNode
+    400054: //RootNode
+    400056: Neck
+    400058: Neck1
     400060: pelvis.L
     400062: pelvis.L_end
     400064: pelvis.R
@@ -173,7 +173,7 @@ ModelImporter:
     7400000: Head_Close_eyes|Action
     7400002: metarig|Action
     7400004: metarig|metarigAction
-    7400006: Normal Walking1
+    7400006: Narmal Running2
     9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
@@ -294,10 +294,10 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Normal Walking1
+      name: Narmal Running2
       takeName: mixamo.com
       firstFrame: 0
-      lastFrame: 31
+      lastFrame: 21
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -308,64 +308,14 @@ ModelImporter:
       loopBlend: 1
       loopBlendOrientation: 1
       loopBlendPositionY: 1
-      loopBlendPositionXZ: 1
-      keepOriginalOrientation: 1
-      keepOriginalPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
       keepOriginalPositionXZ: 0
-      heightFromFeet: 0
+      heightFromFeet: 1
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves:
-      - name: Curve
-        curve:
-          serializedVersion: 2
-          curve:
-          - serializedVersion: 3
-            time: 0
-            value: 0
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-            weightedMode: 0
-            inWeight: 0
-            outWeight: 0
-          - serializedVersion: 3
-            time: 1
-            value: 0
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-            weightedMode: 0
-            inWeight: 0
-            outWeight: 0
-          preInfinity: 3
-          postInfinity: 3
-          rotationOrder: 4
-      - name: Curve
-        curve:
-          serializedVersion: 2
-          curve:
-          - serializedVersion: 3
-            time: 0
-            value: 0
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-            weightedMode: 0
-            inWeight: 0
-            outWeight: 0
-          - serializedVersion: 3
-            time: 1
-            value: 0
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-            weightedMode: 0
-            inWeight: 0
-            outWeight: 0
-          preInfinity: 3
-          postInfinity: 3
-          rotationOrder: 4
+      curves: []
       events: []
       transformMask: []
       maskType: 3

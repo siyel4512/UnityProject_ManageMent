@@ -10,8 +10,8 @@ public class PlayerController : MonoBehaviour {
     float turnSpeed;
     [SerializeField] [Header("점프력")]
     float jumpForce;
-    [SerializeField] [Header("Push & Pull 속도")]
-    float pushNPullSpeed;
+    //[SerializeField] [Header("Push & Pull 속도")]
+    //float pushNPullSpeed;
 
     CapsuleCollider col;
     public Animator ani;
@@ -19,16 +19,17 @@ public class PlayerController : MonoBehaviour {
     public Rigidbody rigid;
 
     bool isGround;
+    bool isWalk;
     bool isJump;
+    bool isCrouch;
     bool isFall;
+    //bool isJumpFail;
+    bool isFallDown;
     bool isFreeFall;
     bool isEnoughHigh;
-    bool isCrouch;
-    bool isWalk;
     public bool isPushNPull;
-    public bool isCheckTurnAngle;
 
-    //int mask;
+    int mask;
 
     // Use this for initialization
     void Start()
@@ -37,8 +38,8 @@ public class PlayerController : MonoBehaviour {
         rigid = GetComponent<Rigidbody>();
         ani = GetComponent<Animator>();
 
-        //mask = 1 << LayerMask.NameToLayer("Player"); // check ground 시 플레이어 콜라이더는 감지하지않게...
-        //mask = ~mask;
+        mask = 1 << 31;
+        mask = ~mask;
     }
 
     // Update is called once per frame
@@ -106,14 +107,8 @@ public class PlayerController : MonoBehaviour {
     void CheckGround()
     {
         RaycastHit hitInfo;
-
-        Debug.DrawRay(transform.position + col.center, -transform.up, Color.red, 0.1f);
-        Debug.DrawRay(transform.position + col.center + new Vector3(0, 0, 0.2f), -transform.up, Color.red, 0.1f);
-        Debug.DrawRay(transform.position + col.center + new Vector3(-0.2f, 0, 0), -transform.up, Color.red, 0.1f);
-        Debug.DrawRay(transform.position + col.center + new Vector3(0, 0, -0.2f), -transform.up, Color.red, 0.1f);
-        Debug.DrawRay(transform.position + col.center + new Vector3(0.2f, 0, 0), -transform.up, Color.red, 0.1f);
-
-
+        //Debug.Log("isJump : " + isJump + ", isFall : " + isFall + ", isFreeFall : " + isFreeFall + ", isPushNPull : " + isPushNPull + ", isEnoughHigh : " + isEnoughHigh + ", isJumpFail : " + isJumpFail + ", isFreeFall : " + isFreeFall);
+        //Debug.Log("isJump : " + isJump + ", isFall : " + isFall + ", isFreeFall : " + isFreeFall + ", isPushNPull : " + isPushNPull + ", isEnoughHigh : " + isEnoughHigh + ", isFreeFall : " + isFreeFall);
         // 바닥에 붙어있을때
         if (Physics.Raycast(transform.position + col.center, -transform.up, out hitInfo, col.bounds.extents.y + 0.1f) // 중앙
             || Physics.Raycast(transform.position + col.center + new Vector3(0, 0, 0.2f), -transform.up, out hitInfo, col.bounds.extents.y + 0.1f) // 북
@@ -123,14 +118,7 @@ public class PlayerController : MonoBehaviour {
         {
             isGround = true;
             Debug.Log("바닥");
-            //Debug.Log(hitInfo.transform.name);
-            //Debug.Log("isFall : " + isFall + ", isEnoughHigh : " + isEnoughHigh);
-            if (isFall && isEnoughHigh)
-            {
-                Debug.Log("착지 시작");
-                isEnoughHigh = false;
-                StartCoroutine(JumpingAnimationCoroutine());
-            }
+            TryLanding();
         }
         // 공중에 떠있을때
         else
@@ -143,15 +131,47 @@ public class PlayerController : MonoBehaviour {
         CheckFallHight();
     }
 
+    // 착지시 애니메이션 및 상태 정리
+    void TryLanding()
+    {
+        // 정상 착지
+        //if (isFall && isEnoughHigh && !isJumpFail)
+        if (isFall && isEnoughHigh)
+        {
+            Debug.Log("정상착지");
+            isEnoughHigh = false;
+            StartCoroutine(JumpingAnimationCoroutine());
+        }
+        //// 점프 실패 1
+        //else if (isJump && !isFall && !isEnoughHigh && isJumpFail && !isFreeFall)
+        //{
+        //    isJump = false;
+        //    StartCoroutine(JumpingAnimationCoroutine());
+        //}
+        //// 점프 실패 2
+        //else if (isJump && isFall && !isEnoughHigh && isJumpFail && !isFreeFall)
+        //{
+        //    isJump = false;
+        //    StartCoroutine(JumpingAnimationCoroutine());
+        //}
+        // 점프 실패 후 상태 정리(초기화)
+        //else if (!isJump && isFall && !isEnoughHigh && !isJumpFail && !isFreeFall)
+        else if (!isJump && isFall && !isEnoughHigh && !isFreeFall)
+            isFall = false;
+    }
+
+    // 착지 애니메이션 실행 및 상태 초기화
     IEnumerator JumpingAnimationCoroutine()
     {
-        ani.SetBool("Crouch", isFall);
+        //ani.SetBool("Crouch", isFall);
+        ani.SetBool("Crouch", true);
         yield return new WaitForSeconds(0.2f);
         isFall = false;
-        //isJumpFall = false;
         isJump = false;
         isFreeFall = false;
-        ani.SetBool("Crouch", isFall);
+        //isJumpFail = false;
+        //ani.SetBool("Crouch", isFall);
+        ani.SetBool("Crouch", false);
     }
 
     // 충분한 높이로 떠있는지 확인
@@ -159,35 +179,84 @@ public class PlayerController : MonoBehaviour {
     {
         RaycastHit freeFallInfo;
 
+        //공중에 있을때 실행
+        //if (!isGround)
+        //{
+        //    //Debug.Log("isJump : " + isJump + ", isFall : " + isFall + ", isFreeFall : " + isFreeFall + ", isPushNPull : " + isPushNPull + ", isEnoughHigh : " + isEnoughHigh);
+        //    // 충분한 높이로 떴을때
+        //    if (!Physics.Raycast(transform.position + col.center, -transform.up, out freeFallInfo, col.bounds.extents.y + 1f))
+        //    {
+        //        Debug.Log("충분한 높이");
+        //        isEnoughHigh = true;
+
+        //        // 자유 낙하시
+        //        if (!isJump && isFall && !isFreeFall && !isPushNPull)
+        //        {
+        //            Debug.Log("자유낙하");
+        //            isFreeFall = true;
+        //            ani.SetTrigger("Jumping");
+        //        }
+        //    }
+        //}
+
+        //Debug.Log("isJump : " + isJump + ", isFall : " + isFall + ", isFreeFall : " + isFreeFall + ", isPushNPull : " + isPushNPull + ", isEnoughHigh : " + isEnoughHigh);
         // 충분한 높이로 떴을때
-        if (!Physics.Raycast(transform.position + col.center, -transform.up, out freeFallInfo, col.bounds.extents.y + 1f) && !isEnoughHigh)
-        //if (!Physics.Raycast(transform.position + col.center, -transform.up, out freeFallInfo, col.bounds.extents.y + 1f, mask))
+        Debug.DrawRay(transform.position + col.center, -transform.up * (col.bounds.extents.y + 0.5f), Color.red, 0.2f);
+        if (!Physics.Raycast(transform.position + col.center, -transform.up, out freeFallInfo, col.bounds.extents.y + 1f))
+        if (!Physics.Raycast(transform.position + col.center, -transform.up, out freeFallInfo, col.bounds.extents.y + 0.5f))
         {
             isEnoughHigh = true;
+            Debug.Log("충분한 높이");
 
             // 자유 낙하시
-            //if (isFall && !isFreeFall && !isJumpFall && !isPushNPull)
             if (!isJump && isFall && !isFreeFall && !isPushNPull)
             {
+                //Debug.Log("자유낙하");
                 isFreeFall = true;
                 ani.SetTrigger("Jumping");
             }
         }
-        else if (isJump && _direction != Vector3.zero && !isEnoughHigh)
-            isEnoughHigh = true;
+
+        //// 점프 실패시
+        //if (Physics.Raycast(transform.position + col.center, transform.forward, out freeFallInfo, col.bounds.extents.x + 0.1f, mask))
+        //{
+        //    // 벽 및 오브젝트에 막힌상태에서
+        //    if (isJump && _direction != Vector3.zero && !isEnoughHigh && !isJumpFail)
+        //        isJumpFail = true;
+        //}
     }
 
     // 플레이어 점프
     void TryJump()
     {
-        //if (Input.GetKeyDown(KeyCode.Space) && isGround && !isCrouch && !isJump && !isJumpFall && !isFreeFall && !isPushNPull)
-        if (Input.GetKeyDown(KeyCode.Space) && isGround && !isCrouch && !isJump && !isFreeFall && !isPushNPull)
+        if (Input.GetKeyDown(KeyCode.Space) && isGround && !isCrouch && !isJump && !isFall && !isFreeFall && !isPushNPull)
         {
-            isJump = true;
-            //isJumpFall = true;
-            rigid.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-            UndateAnimation(_direction.z, _direction.x, isGround);
+            
+
+            RaycastHit freeFallInfo;
+
+            if (Physics.Raycast(transform.position + col.center, transform.forward, out freeFallInfo, col.bounds.extents.x + 0.1f, mask)
+                && _direction != Vector3.zero)
+            {
+                //// 벽 및 오브젝트에 막힌상태에서
+                //if (isJump && _direction != Vector3.zero && !isEnoughHigh && !isJumpFail)
+                //    //isJumpFail = true;
+                Debug.Log("벽에 부딧침");
+            }
+            else
+            {
+                isJump = true;
+                rigid.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+                UndateAnimation(_direction.z, _direction.x, isGround);
+            }
         }
+    }
+
+    IEnumerator FallDown()
+    {
+        yield return new WaitForSeconds(0.2f);
+
+        isFallDown = false;
     }
 
     // 플레이어 앉기
@@ -211,8 +280,16 @@ public class PlayerController : MonoBehaviour {
     // 실질적인 플레이어 앉기
     void Crouch()
     {
-        if ((_direction.z >= -1f && _direction.z < 0) || (_direction.z <= 1f && _direction.z > 0) || (_direction.x >= -1f && _direction.x < 0) || (_direction.x <= 1f && _direction.x > 0))
+        if ((_direction.z >= -0.7f && _direction.z < 0) || (_direction.z <= 0.6f && _direction.z > 0) || (_direction.x >= -0.7f && _direction.x < 0) || (_direction.x <= 0.7f && _direction.x > 0))
+        {
+            //Debug.Log("시작");
+            rigid.MovePosition(transform.position + _direction.normalized * Time.deltaTime * moveSpeed * 0.05f);
+        }
+        else if ((_direction.z >= -1f && _direction.z < -0.7f) || (_direction.z <= 1f && _direction.z > 0.7f) || (_direction.x >= -1f && _direction.x < -0.7f) || (_direction.x <= 1f && _direction.x > 0.7f))
+        {
+            //Debug.Log("진행");
             rigid.MovePosition(transform.position + _direction.normalized * Time.deltaTime * moveSpeed * 0.2f);
+        }
 
         UndateAnimation(_direction.z, _direction.x, isGround);
     }

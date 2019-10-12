@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 653b9993916790d4fa4a9cadd8ec9f55
+guid: 458cc314aa7f634499e6841226a997e5
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -173,7 +173,7 @@ ModelImporter:
     7400000: Head_Close_eyes|Action
     7400002: metarig|Action
     7400004: metarig|metarigAction
-    7400006: Normal Crouch Walk Forward
+    7400006: Normal Left Turn 90
     9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
@@ -195,7 +195,8 @@ ModelImporter:
       might lower retargeting quality:\nNote: Activate translation DOF on avatar to
       improve retargeting quality.\n\t'spine.004' is inbetween humanoid transforms
       and has rotation animation that will be discarded.\n\t'shoulder.L' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n"
+      humanoid transforms and has rotation animation that will be discarded.\n\t'shoulder.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -293,22 +294,22 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Normal Crouch Walk Forward
+      name: Normal Left Turn 90
       takeName: mixamo.com
       firstFrame: 0
-      lastFrame: 37
+      lastFrame: 28
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 1
+      loopTime: 0
+      loopBlend: 0
       loopBlendOrientation: 1
       loopBlendPositionY: 1
       loopBlendPositionXZ: 0
-      keepOriginalOrientation: 1
+      keepOriginalOrientation: 0
       keepOriginalPositionY: 0
       keepOriginalPositionXZ: 0
       heightFromFeet: 1

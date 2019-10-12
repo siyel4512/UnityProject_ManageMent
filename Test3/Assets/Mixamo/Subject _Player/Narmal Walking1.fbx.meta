@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ae821f19d6e043a4abb2ffb61ddabce9
+guid: 04b3e275c48a34c4eb93a27c68ac63b8
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -30,9 +30,9 @@ ModelImporter:
     100048: heel.02.R_end
     100050: HIp
     100052: metarig
-    100054: Neck
-    100056: Neck1
-    100058: //RootNode
+    100054: //RootNode
+    100056: Neck
+    100058: Neck1
     100060: pelvis.L
     100062: pelvis.L_end
     100064: pelvis.R
@@ -86,9 +86,9 @@ ModelImporter:
     400048: heel.02.R_end
     400050: HIp
     400052: metarig
-    400054: Neck
-    400056: Neck1
-    400058: //RootNode
+    400054: //RootNode
+    400056: Neck
+    400058: Neck1
     400060: pelvis.L
     400062: pelvis.L_end
     400064: pelvis.R
@@ -173,7 +173,7 @@ ModelImporter:
     7400000: Head_Close_eyes|Action
     7400002: metarig|Action
     7400004: metarig|metarigAction
-    7400006: Normal Running1
+    7400006: Narmal Walking1
     9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
@@ -294,10 +294,10 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Normal Running1
+      name: Narmal Walking1
       takeName: mixamo.com
       firstFrame: 0
-      lastFrame: 19
+      lastFrame: 31
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -308,8 +308,8 @@ ModelImporter:
       loopBlend: 1
       loopBlendOrientation: 1
       loopBlendPositionY: 1
-      loopBlendPositionXZ: 1
-      keepOriginalOrientation: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
       keepOriginalPositionY: 0
       keepOriginalPositionXZ: 0
       heightFromFeet: 1

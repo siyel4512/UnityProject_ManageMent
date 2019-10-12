@@ -1,37 +1,32 @@
 fileFormatVersion: 2
-guid: 984de491be16e8245b91851f40c06c2d
+guid: 2023c0f8efc46ad4caa36da7344ca5f3
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Operating room Door2-4-1
-    100002: Operating room Door2-4-1.001
-    100004: Operating room Door2-4-1.002
-    100006: Operating room Door2-4-1.003
-    100008: Operating room Door2-4-1.004
-    100010: //RootNode
-    400000: Operating room Door2-4-1
-    400002: Operating room Door2-4-1.001
-    400004: Operating room Door2-4-1.002
-    400006: Operating room Door2-4-1.003
-    400008: Operating room Door2-4-1.004
-    400010: //RootNode
-    2100000: palette.022
-    2300000: Operating room Door2-4-1
-    2300002: Operating room Door2-4-1.001
-    2300004: Operating room Door2-4-1.002
-    2300006: Operating room Door2-4-1.003
-    2300008: Operating room Door2-4-1.004
-    3300000: Operating room Door2-4-1
-    3300002: Operating room Door2-4-1.001
-    3300004: Operating room Door2-4-1.002
-    3300006: Operating room Door2-4-1.003
-    3300008: Operating room Door2-4-1.004
-    4300000: Operating room Door2-4-1.004
-    4300002: Operating room Door2-4-1.003
-    4300004: Operating room Door2-4-1.002
-    4300006: Operating room Door2-4-1.001
-    4300008: Operating room Door2-4-1
-    11100000: //RootNode
+    100000: //RootNode
+    100002: Elevator_Body_1.001
+    100004: Elevator_Door_1-2.000
+    100006: Elevator_Door_1-2.001
+    100008: Elevator_Door_1-2.003
+    400000: //RootNode
+    400002: Elevator_Body_1.001
+    400004: Elevator_Door_1-2.000
+    400006: Elevator_Door_1-2.001
+    400008: Elevator_Door_1-2.003
+    2100000: palette.006
+    2100002: palette.005
+    2300000: Elevator_Body_1.001
+    2300002: Elevator_Door_1-2.000
+    2300004: Elevator_Door_1-2.001
+    2300006: Elevator_Door_1-2.003
+    3300000: Elevator_Body_1.001
+    3300002: Elevator_Door_1-2.000
+    3300004: Elevator_Door_1-2.001
+    3300006: Elevator_Door_1-2.003
+    4300000: Elevator_Door_1-2.001
+    4300002: Elevator_Door_1-2.000
+    4300004: Elevator_Door_1-2.003
+    4300006: Elevator_Body_1.001
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -105,7 +100,7 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 1
+    hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 0

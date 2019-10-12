@@ -1,37 +1,42 @@
 fileFormatVersion: 2
-guid: 984de491be16e8245b91851f40c06c2d
+guid: 88158e73c0c33ca4d84e8c785f10ec5f
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Operating room Door2-4-1
-    100002: Operating room Door2-4-1.001
-    100004: Operating room Door2-4-1.002
-    100006: Operating room Door2-4-1.003
-    100008: Operating room Door2-4-1.004
-    100010: //RootNode
-    400000: Operating room Door2-4-1
-    400002: Operating room Door2-4-1.001
-    400004: Operating room Door2-4-1.002
-    400006: Operating room Door2-4-1.003
-    400008: Operating room Door2-4-1.004
-    400010: //RootNode
-    2100000: palette.022
-    2300000: Operating room Door2-4-1
-    2300002: Operating room Door2-4-1.001
-    2300004: Operating room Door2-4-1.002
-    2300006: Operating room Door2-4-1.003
-    2300008: Operating room Door2-4-1.004
-    3300000: Operating room Door2-4-1
-    3300002: Operating room Door2-4-1.001
-    3300004: Operating room Door2-4-1.002
-    3300006: Operating room Door2-4-1.003
-    3300008: Operating room Door2-4-1.004
-    4300000: Operating room Door2-4-1.004
-    4300002: Operating room Door2-4-1.003
-    4300004: Operating room Door2-4-1.002
-    4300006: Operating room Door2-4-1.001
-    4300008: Operating room Door2-4-1
-    11100000: //RootNode
+    100000: //RootNode
+    100002: Pillar2
+    100004: Pillar2.001
+    100006: Pillar2.002
+    100008: Pillar2.003
+    100010: Pillar2.004
+    100012: Pillar2.005
+    400000: //RootNode
+    400002: Pillar2
+    400004: Pillar2.001
+    400006: Pillar2.002
+    400008: Pillar2.003
+    400010: Pillar2.004
+    400012: Pillar2.005
+    2100000: palette.002
+    2300000: Pillar2
+    2300002: Pillar2.001
+    2300004: Pillar2.002
+    2300006: Pillar2.003
+    2300008: Pillar2.004
+    2300010: Pillar2.005
+    3300000: Pillar2
+    3300002: Pillar2.001
+    3300004: Pillar2.002
+    3300006: Pillar2.003
+    3300008: Pillar2.004
+    3300010: Pillar2.005
+    4300000: Pillar2.005
+    4300002: Pillar2.004
+    4300004: Pillar2.003
+    4300006: Pillar2.002
+    4300008: Pillar2.001
+    4300010: Pillar2
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -105,7 +110,7 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 1
+    hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 0
